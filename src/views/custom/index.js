@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.scss';
 import {updateText} from "../../store/actions/text";
 import {getText} from "../../store/reducers/text";
 import {compose} from "redux";

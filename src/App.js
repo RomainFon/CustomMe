@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss';
 import {Switch,Route} from "react-router-dom";
 import Custom from "./views/custom";
 import Preview from "./views/preview";

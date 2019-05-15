@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.scss';
 import {getText} from "../../store/reducers/text";
 import {compose} from "redux";
 import connect from "react-redux/es/connect/connect";
