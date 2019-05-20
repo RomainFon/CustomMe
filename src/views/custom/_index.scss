@@ -1,3 +1,11 @@
 .Custom {
-  background-color: $background;
+  background-color: white;
+  width: 25%;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+
+  &__main-title{
+    font-size: 2em;
+  }
 }

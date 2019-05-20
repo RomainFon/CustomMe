@@ -1,6 +1,6 @@
-import {createBrowserHistory, createMemoryHistory} from 'history'
+import {createBrowserHistory} from 'history'
 import {applyMiddleware, compose, createStore} from 'redux'
-import {createMatchSelector, LOCATION_CHANGE, routerMiddleware} from 'connected-react-router'
+import {routerMiddleware} from 'connected-react-router'
 import createRootReducer from './reducers'
 import thunk from 'redux-thunk'
 

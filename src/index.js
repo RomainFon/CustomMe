@@ -4,7 +4,6 @@ import './scss/index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import {createBrowserHistory} from 'history';
 import {Provider} from 'react-redux';
 import {ConnectedRouter} from 'connected-react-router'
 import middleware, {history} from './store/middleware'
